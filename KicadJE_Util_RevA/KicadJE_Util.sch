@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Kicad JE - Util"
+Date "2020-03-17"
+Rev "Rev A"
+Comp "Johansen Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
