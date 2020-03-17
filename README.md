@@ -16,7 +16,11 @@ Offset
 
 Gain 
 
-## CV Util 2
-+/- 10V 
+## CV Util 2 - Glide
+0-10V input
 
-## CV Util 3
+0-10V Output
+
+## Gate Util 1 - Timing
+0-5V input
+
