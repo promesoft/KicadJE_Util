@@ -1286,9 +1286,9 @@ Wire Wire Line
 Wire Wire Line
 	4475 7450 4925 7450
 Text GLabel 3525 7575 2    50   Input ~ 0
-Out1
+Flow1
 Text GLabel 6500 7550 2    50   Input ~ 0
-Out2
+Flow2
 Wire Wire Line
 	2975 7575 3525 7575
 Wire Wire Line
