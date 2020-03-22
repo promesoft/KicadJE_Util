@@ -924,7 +924,7 @@ F 3 "~" H 2225 2775 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
-U 2 1 5F001C02
+U 1 1 5F001C02
 P 6550 1100
 AR Path="/5D99B81E/5F001C02" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5F001C02" Ref="U?"  Part="1" 
@@ -933,12 +933,12 @@ AR Path="/5E62ACA1/5F001C02" Ref="U?"  Part="1"
 AR Path="/5F49A670/5F001C02" Ref="U?"  Part="2" 
 AR Path="/5F001C02" Ref="U?"  Part="2" 
 AR Path="/5FDBD837/5F001C02" Ref="U?"  Part="2" 
-AR Path="/5EFABE3E/5F001C02" Ref="U301"  Part="2" 
+AR Path="/5EFABE3E/5F001C02" Ref="U301"  Part="1" 
 F 0 "U301" H 6500 1100 50  0000 C CNN
 F 1 "TL072" H 6650 950 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6550 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6550 1100 50  0001 C CNN
-	2    6550 1100
+	1    6550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1283,7 +1283,7 @@ Wire Wire Line
 	9500 1650 9500 1800
 $Comp
 L Amplifier_Operational:TL072 U?
-U 2 1 5F171553
+U 1 1 5F171553
 P 10025 1150
 AR Path="/5D99B81E/5F171553" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5F171553" Ref="U?"  Part="1" 
@@ -1292,12 +1292,12 @@ AR Path="/5E62ACA1/5F171553" Ref="U?"  Part="1"
 AR Path="/5F49A670/5F171553" Ref="U?"  Part="2" 
 AR Path="/5F171553" Ref="U?"  Part="2" 
 AR Path="/5FDBD837/5F171553" Ref="U?"  Part="2" 
-AR Path="/5EFABE3E/5F171553" Ref="U303"  Part="2" 
-F 0 "U303" H 9975 1150 50  0000 C CNN
+AR Path="/5EFABE3E/5F171553" Ref="U302"  Part="1" 
+F 0 "U302" H 9975 1150 50  0000 C CNN
 F 1 "TL072" H 10125 1000 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 10025 1150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10025 1150 50  0001 C CNN
-	2    10025 1150
+	1    10025 1150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1436,8 +1436,8 @@ AR Path="/5E62ACA1/5F1A0DC4" Ref="U?"  Part="1"
 AR Path="/5F49A670/5F1A0DC4" Ref="U?"  Part="2" 
 AR Path="/5F1A0DC4" Ref="U?"  Part="2" 
 AR Path="/5FDBD837/5F1A0DC4" Ref="U?"  Part="2" 
-AR Path="/5EFABE3E/5F1A0DC4" Ref="U304"  Part="2" 
-F 0 "U304" H 9975 2400 50  0000 C CNN
+AR Path="/5EFABE3E/5F1A0DC4" Ref="U302"  Part="2" 
+F 0 "U302" H 9975 2400 50  0000 C CNN
 F 1 "TL072" H 10125 2250 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 10025 2400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10025 2400 50  0001 C CNN
@@ -1544,8 +1544,8 @@ AR Path="/5E62ACA1/5F1DE0A5" Ref="U?"  Part="1"
 AR Path="/5F49A670/5F1DE0A5" Ref="U?"  Part="2" 
 AR Path="/5F1DE0A5" Ref="U?"  Part="2" 
 AR Path="/5FDBD837/5F1DE0A5" Ref="U?"  Part="2" 
-AR Path="/5EFABE3E/5F1DE0A5" Ref="U302"  Part="2" 
-F 0 "U302" H 6550 3600 50  0000 C CNN
+AR Path="/5EFABE3E/5F1DE0A5" Ref="U301"  Part="2" 
+F 0 "U301" H 6550 3600 50  0000 C CNN
 F 1 "TL072" H 6700 3450 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6600 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6600 3600 50  0001 C CNN
