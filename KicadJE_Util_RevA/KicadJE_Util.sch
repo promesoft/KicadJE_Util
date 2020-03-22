@@ -698,19 +698,19 @@ Wire Wire Line
 	1950 7475 2000 7475
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 5FD1A01E
+U 2 1 5FD1A01E
 P 5275 7450
 AR Path="/5D99B81E/5FD1A01E" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5FD1A01E" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/5FD1A01E" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/5FD1A01E" Ref="U?"  Part="1" 
 AR Path="/5F49A670/5FD1A01E" Ref="U?"  Part="1" 
-AR Path="/5FD1A01E" Ref="U101"  Part="1" 
-F 0 "U101" H 5275 7400 50  0000 C CNN
+AR Path="/5FD1A01E" Ref="U102"  Part="2" 
+F 0 "U102" H 5275 7400 50  0000 C CNN
 F 1 "TL072" H 5225 7475 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 5275 7450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5275 7450 50  0001 C CNN
-	1    5275 7450
+	2    5275 7450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -788,8 +788,8 @@ AR Path="/5D99B7BA/604DA92D" Ref="U?"  Part="1"
 AR Path="/5F18E4B5/604DA92D" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/604DA92D" Ref="U?"  Part="1" 
 AR Path="/5F49A670/604DA92D" Ref="U?"  Part="1" 
-AR Path="/604DA92D" Ref="U102"  Part="1" 
-F 0 "U102" H 6225 4625 50  0000 C CNN
+AR Path="/604DA92D" Ref="U101"  Part="1" 
+F 0 "U101" H 6225 4625 50  0000 C CNN
 F 1 "TL072" H 6250 4550 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6325 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6325 4600 50  0001 C CNN
@@ -800,19 +800,19 @@ Wire Wire Line
 	6650 4600 6625 4600
 $Comp
 L Amplifier_Operational:TL072 U?
-U 2 1 6058F368
+U 1 1 6058F368
 P 6325 5600
 AR Path="/5D99B81E/6058F368" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/6058F368" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/6058F368" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/6058F368" Ref="U?"  Part="1" 
 AR Path="/5F49A670/6058F368" Ref="U?"  Part="2" 
-AR Path="/6058F368" Ref="U102"  Part="2" 
+AR Path="/6058F368" Ref="U102"  Part="1" 
 F 0 "U102" H 6275 5600 50  0000 C CNN
 F 1 "TL072" H 6425 5450 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6325 5600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6325 5600 50  0001 C CNN
-	2    6325 5600
+	1    6325 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2000,7 +2000,7 @@ F 1 "100k Offset1" V 3225 7100 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 3325 7100 50  0001 C CNN
 F 3 "" H 3325 7100 50  0001 C CNN
 	1    3325 7100
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:-12VA #PWR?
@@ -2070,12 +2070,12 @@ AR Path="/5E62ACA1/5FA15097" Ref="RV?"  Part="1"
 AR Path="/5E4B0DD9/5FA15097" Ref="RV?"  Part="1" 
 AR Path="/5F49A670/5FA15097" Ref="RV?"  Part="1" 
 AR Path="/5FA15097" Ref="RV104"  Part="1" 
-F 0 "RV104" V 6300 7100 50  0000 C CNN
+F 0 "RV104" V 6300 7075 50  0000 C CNN
 F 1 "100k Offset2" V 6200 7075 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 6300 7075 50  0001 C CNN
 F 3 "" H 6300 7075 50  0001 C CNN
 	1    6300 7075
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:-12VA #PWR?
@@ -2132,7 +2132,7 @@ F 1 "100k Gain2" V 6175 6000 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 6275 6000 50  0001 C CNN
 F 3 "" H 6275 6000 50  0001 C CNN
 	1    6275 6000
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R126
@@ -2323,7 +2323,7 @@ Wire Wire Line
 Wire Notes Line
 	8450 525  8450 6525
 $Sheet
-S 4700 1475 1750 1775
+S 4675 1475 1775 1750
 U 5FDBD837
 F0 "KicadJE_Util_CV2" 50
 F1 "KicadJE_Util_CV2.sch" 50
