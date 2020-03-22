@@ -338,57 +338,6 @@ Wire Wire Line
 	2450 1750 2450 1800
 Wire Wire Line
 	2450 1050 2450 1000
-Connection ~ 2575 1000
-Wire Wire Line
-	2575 1000 2650 1000
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5E7BA41B
-P 2575 1000
-AR Path="/5E4B0DD9/5E7BA41B" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5E7BA41B" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5E7BA41B" Ref="#FLG?"  Part="1" 
-AR Path="/5E7BA41B" Ref="#FLG?"  Part="1" 
-AR Path="/5FDBD837/5E7BA41B" Ref="#FLG0203"  Part="1" 
-F 0 "#FLG0203" H 2575 1075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2725 1150 50  0000 C CNN
-F 2 "" H 2575 1000 50  0001 C CNN
-F 3 "~" H 2575 1000 50  0001 C CNN
-	1    2575 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5E7BA421
-P 2325 1400
-AR Path="/5E4B0DD9/5E7BA421" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5E7BA421" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5E7BA421" Ref="#FLG?"  Part="1" 
-AR Path="/5E7BA421" Ref="#FLG?"  Part="1" 
-AR Path="/5FDBD837/5E7BA421" Ref="#FLG0201"  Part="1" 
-F 0 "#FLG0201" H 2325 1475 50  0001 C CNN
-F 1 "PWR_FLAG" H 2325 1573 50  0000 C CNN
-F 2 "" H 2325 1400 50  0001 C CNN
-F 3 "~" H 2325 1400 50  0001 C CNN
-	1    2325 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5E7BA427
-P 2325 1800
-AR Path="/5E4B0DD9/5E7BA427" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5E7BA427" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5E7BA427" Ref="#FLG?"  Part="1" 
-AR Path="/5E7BA427" Ref="#FLG?"  Part="1" 
-AR Path="/5FDBD837/5E7BA427" Ref="#FLG0202"  Part="1" 
-F 0 "#FLG0202" H 2325 1875 50  0001 C CNN
-F 1 "PWR_FLAG" H 2325 1973 50  0000 C CNN
-F 2 "" H 2325 1800 50  0001 C CNN
-F 3 "~" H 2325 1800 50  0001 C CNN
-	1    2325 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5E7BA42D
@@ -709,8 +658,6 @@ Connection ~ 2450 1800
 Wire Wire Line
 	2450 1800 2650 1800
 Connection ~ 2450 1000
-Wire Wire Line
-	2450 1000 2575 1000
 Wire Wire Line
 	2450 1400 2650 1400
 Connection ~ 2650 1000
@@ -2178,4 +2125,6 @@ Connection ~ 2775 6025
 Wire Wire Line
 	2425 5325 2775 5325
 Connection ~ 2775 5325
+Wire Wire Line
+	2450 1000 2650 1000
 $EndSCHEMATC

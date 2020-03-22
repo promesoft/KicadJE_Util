@@ -221,57 +221,6 @@ Wire Wire Line
 	2400 1775 2400 1825
 Wire Wire Line
 	2400 1075 2400 1025
-Connection ~ 2525 1025
-Wire Wire Line
-	2525 1025 2600 1025
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5EFCD3F6
-P 2525 1025
-AR Path="/5E4B0DD9/5EFCD3F6" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5EFCD3F6" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5EFCD3F6" Ref="#FLG?"  Part="1" 
-AR Path="/5EFCD3F6" Ref="#FLG?"  Part="1" 
-AR Path="/5EFABE3E/5EFCD3F6" Ref="#FLG0303"  Part="1" 
-F 0 "#FLG0303" H 2525 1100 50  0001 C CNN
-F 1 "PWR_FLAG" H 2675 1175 50  0000 C CNN
-F 2 "" H 2525 1025 50  0001 C CNN
-F 3 "~" H 2525 1025 50  0001 C CNN
-	1    2525 1025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5EFCD3FC
-P 2275 1425
-AR Path="/5E4B0DD9/5EFCD3FC" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5EFCD3FC" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5EFCD3FC" Ref="#FLG?"  Part="1" 
-AR Path="/5EFCD3FC" Ref="#FLG?"  Part="1" 
-AR Path="/5EFABE3E/5EFCD3FC" Ref="#FLG0301"  Part="1" 
-F 0 "#FLG0301" H 2275 1500 50  0001 C CNN
-F 1 "PWR_FLAG" H 2275 1598 50  0000 C CNN
-F 2 "" H 2275 1425 50  0001 C CNN
-F 3 "~" H 2275 1425 50  0001 C CNN
-	1    2275 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5EFCD402
-P 2275 1825
-AR Path="/5E4B0DD9/5EFCD402" Ref="#FLG?"  Part="1" 
-AR Path="/5E62ACA1/5EFCD402" Ref="#FLG?"  Part="1" 
-AR Path="/5F49A670/5EFCD402" Ref="#FLG?"  Part="1" 
-AR Path="/5EFCD402" Ref="#FLG?"  Part="1" 
-AR Path="/5EFABE3E/5EFCD402" Ref="#FLG0302"  Part="1" 
-F 0 "#FLG0302" H 2275 1900 50  0001 C CNN
-F 1 "PWR_FLAG" H 2275 1998 50  0000 C CNN
-F 2 "" H 2275 1825 50  0001 C CNN
-F 3 "~" H 2275 1825 50  0001 C CNN
-	1    2275 1825
-	1    0    0    -1  
-$EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5EFCD408
@@ -600,8 +549,6 @@ Connection ~ 2400 1825
 Wire Wire Line
 	2400 1825 2600 1825
 Connection ~ 2400 1025
-Wire Wire Line
-	2400 1025 2525 1025
 Wire Wire Line
 	2400 1425 2600 1425
 Connection ~ 2600 1025
@@ -1970,4 +1917,6 @@ Text Notes 4575 3375 0    50   ~ 0
 Slope PWM 2
 Wire Notes Line
 	4500 550  4500 5325
+Wire Wire Line
+	2400 1025 2600 1025
 $EndSCHEMATC
