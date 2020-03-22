@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Kicad JE - Util"
 Date "2020-03-17"
 Rev "Rev A"
@@ -2334,4 +2334,10 @@ Wire Notes Line
 	4400 4850 525  4850
 Wire Notes Line
 	4500 4100 8450 4100
+$Sheet
+S 9000 4250 1750 2025
+U 5EFABE3E
+F0 "KicadJE_Timeshift_Mini" 50
+F1 "KicadJE_Timeshift_Mini.sch" 50
+$EndSheet
 $EndSCHEMATC
