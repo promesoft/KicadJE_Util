@@ -22,16 +22,18 @@ Gain
 0-10V Output
 
 ## Gate Util 1 - Timing
-0-5V input
+0-10V input
 
-# Status - Initiated sch
+Time shift of the start and end phase
+
+# Status - Initiated ordering
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | ongoing |
-| | pcb |   |
-| | gerber |  |
-| production  |   |  |
+| create material  | sch | ok |
+| | pcb | ok |
+| | gerber | ok |
+| production  |   | Order process comenced |
 |  | produced |  |
 |  | delivered |  |
 ## Preliminary validation
