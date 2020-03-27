@@ -26,14 +26,14 @@ Gain
 
 Time shift of the start and end phase
 
-# Status - Initiated ordering
+# Status - In production
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | ok |
 | | pcb | ok |
 | | gerber | ok |
-| production  |   | Order process comenced |
+| production  |   | initiated |
 |  | produced |  |
 |  | delivered |  |
 ## Preliminary validation
