@@ -68,4 +68,8 @@ Time shift of the start and end phase
 ## 
 ![]()
 
+# Analysis
+## Timeshift
+![](Timeshift.pdf)
+
 ## Prototype
