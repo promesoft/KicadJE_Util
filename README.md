@@ -26,7 +26,7 @@ Gain
 
 Time shift of the start and end phase
 
-# Status - In the mail
+# Status - TimeShift mounted
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -35,15 +35,17 @@ Time shift of the start and end phase
 | | gerber | ok |
 | production  |   | ok |
 |  | produced | ok |
-|  | delivered |  |
+|  | delivered | ok |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
-| Initial Technical Test |  |  |
-| Initial Technical Test |  |  |
-| Initial Product Test |  |  |
-| Initial Product Test |  |  |
+| Initial Inspection | | ok |
+| Initial Technical Test | Util |  |
+| Initial Technical Test | Glide |  |
+| Initial Technical Test | TimeShift | Ok - but problem in pos/neg detection |
+| Initial Product Test | Util |  |
+| Initial Product Test | Glide |  |
+| Initial Product Test | TimeShift |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
