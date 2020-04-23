@@ -68,7 +68,7 @@ Time shift of the start and end phase
 
 # Schematic
 ## 
-![]()
+![](KicadJE_Util_RevA/KicadJE_Util_1_sch.png)
 
 # Analysis
 ## Timeshift
