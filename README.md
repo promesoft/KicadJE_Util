@@ -67,8 +67,12 @@ Time shift of the start and end phase
 ![](KicadJE_Util_RevA/KicadJE_Util_All_Front.png)
 
 # Schematic
-## 
+## DC util
 ![](KicadJE_Util_RevA/KicadJE_Util_1_sch.png)
+## Glide util
+![](KicadJE_Util_RevA/KicadJE_Util_Glide_sch.png)
+## TimeShift util
+![](KicadJE_Util_RevA/KicadJE_Util_TimeShift_sch.png)
 
 # Analysis
 ## Timeshift
