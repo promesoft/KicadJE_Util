@@ -40,7 +40,7 @@ Time shift of the start and end phase
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | ok |
-| Initial Technical Test | Util |  |
+| Initial Technical Test | Util | ok - but offset pots are reversed |
 | Initial Technical Test | Glide |  |
 | Initial Technical Test | TimeShift | Ok - but problem in pos/neg detection |
 | Initial Product Test | Util |  |
