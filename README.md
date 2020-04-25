@@ -50,10 +50,12 @@ Time shift of the start and end phase
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
-| Product Test |  | |
-| Product Test |  | |
-| Quality |  | |
-| Quality | | |
+| Product Test | Util | |
+| Product Test | Glide | |
+| Product Test | TimeShift | |
+| Quality | Util | |
+| Quality | Glide | |
+| Quality | TimeShift | |
 | Long Term Product Test |  |  |
 | Power Draw |  | 
 
