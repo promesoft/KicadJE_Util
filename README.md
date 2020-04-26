@@ -41,7 +41,7 @@ Time shift of the start and end phase
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | ok |
 | Initial Technical Test | Util | ok - but offset pots are reversed |
-| Initial Technical Test | Glide |  |
+| Initial Technical Test | Glide | notok - CV in potential burn of output by gnd of tip |
 | Initial Technical Test | TimeShift | Ok - but problem in pos/neg detection |
 | Initial Product Test | Util |  |
 | Initial Product Test | Glide |  |
