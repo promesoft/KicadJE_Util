@@ -69,14 +69,6 @@ Wire Wire Line
 	2125 3075 2025 3075
 Wire Wire Line
 	2125 2550 2025 2550
-Wire Wire Line
-	1975 2750 2125 2750
-Wire Wire Line
-	2125 2750 2125 2550
-Wire Wire Line
-	1975 3275 2125 3275
-Wire Wire Line
-	2125 3275 2125 3075
 $Comp
 L Connector:AudioJack2_SwitchT J106
 U 1 1 5F4B92A3
@@ -150,11 +142,7 @@ F 3 "~" H 1775 4025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1975 4025 2225 4025
-Wire Wire Line
-	1975 4125 2125 4125
 Connection ~ 2125 3925
-Wire Wire Line
-	2125 3925 2125 4125
 Wire Wire Line
 	1975 3925 2025 3925
 Wire Wire Line
@@ -196,8 +184,6 @@ F 3 "~" H 2375 4025 50  0001 C CNN
 	1    2375 4025
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1975 4650 2125 4650
 Wire Wire Line
 	2375 5325 2425 5325
 $Comp
@@ -1378,9 +1364,6 @@ F 3 "" H 3000 3850 50  0001 C CNN
 	1    3000 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2125 4125 2125 4450
-Connection ~ 2125 4125
 $Comp
 L Device:R R110
 U 1 1 5F186C27
@@ -1397,11 +1380,6 @@ F 3 "~" H 2375 4550 50  0001 C CNN
 	1    2375 4550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2125 3275 2125 3925
-Connection ~ 2125 3275
-Connection ~ 2125 2750
-Connection ~ 2125 4650
 $Comp
 L power:-12VA #PWR?
 U 1 1 5F29E327
@@ -1517,8 +1495,6 @@ F 3 "" H 3000 2475 50  0001 C CNN
 	1    3000 2475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2125 2750 2125 3075
 Connection ~ 2125 3075
 Text GLabel 3375 2650 2    50   Input ~ 0
 In1
@@ -2344,4 +2320,56 @@ Text Notes 3900 6875 0    97   ~ 0
 CHECK POTS
 Text Notes 7450 5200 0    97   ~ 0
 CHECK POTS
+$Comp
+L Device:R R?
+U 1 1 5EA9C392
+P 2375 3550
+AR Path="/5EA9C392" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5EA9C392" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5EA9C392" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5EA9C392" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5EA9C392" Ref="R?"  Part="1" 
+F 0 "R?" V 2300 3550 50  0000 C CNN
+F 1 "10k" V 2375 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2305 3550 50  0001 C CNN
+F 3 "~" H 2375 3550 50  0001 C CNN
+	1    2375 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2225 3550 2175 3550
+Wire Wire Line
+	2175 3550 2175 3275
+Wire Wire Line
+	1975 2750 2175 2750
+Wire Wire Line
+	2125 2550 2125 3075
+Connection ~ 2175 3275
+Wire Wire Line
+	2175 3275 2175 2750
+Wire Wire Line
+	1975 3275 2175 3275
+Wire Wire Line
+	2125 3075 2125 3725
+Wire Wire Line
+	2175 3550 2175 4125
+Connection ~ 2175 3550
+Wire Wire Line
+	2175 4650 2175 4125
+Connection ~ 2175 4125
+Wire Wire Line
+	1975 4650 2175 4650
+Wire Wire Line
+	1975 4125 2175 4125
+Wire Wire Line
+	2125 3925 2125 4450
+Wire Wire Line
+	2525 3550 2575 3550
+Wire Wire Line
+	2575 3550 2575 3725
+Wire Wire Line
+	2575 3725 2125 3725
+Connection ~ 2125 3725
+Wire Wire Line
+	2125 3725 2125 3925
 $EndSCHEMATC
