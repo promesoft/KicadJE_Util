@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KicadJE_Util-rescue)(type Legacy)(uri ${KIPRJMOD}/KicadJE_Util-rescue.lib)(options "")(descr ""))
+)

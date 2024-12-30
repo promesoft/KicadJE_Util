@@ -48,7 +48,7 @@ F 3 "~" H 1225 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EFCD382
 P 1575 4600
 AR Path="/5EFCD382" Ref="#PWR?"  Part="1" 
@@ -145,7 +145,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2825 1425 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Eurorack:HEADER_2x5_Doepfer P?
+L KicadJE_Util-rescue:HEADER_2x5_Doepfer-Eurorack P?
 U 1 1 5EFCD3D2
 P 1875 1425
 AR Path="/5E4B0DD9/5EFCD3D2" Ref="P?"  Part="1" 
@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 1075 2400 1025
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EFCD408
 P 2275 1425
 AR Path="/5EFCD408" Ref="#PWR?"  Part="1" 
@@ -274,7 +274,7 @@ F 3 "~" H 1375 1475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EFCD41A
 P 1625 1425
 AR Path="/5EFCD41A" Ref="#PWR?"  Part="1" 
@@ -670,7 +670,7 @@ Wire Wire Line
 	2725 2100 2475 2100
 Connection ~ 2975 2100
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EFCD514
 P 2850 2100
 AR Path="/5EFCD514" Ref="#PWR?"  Part="1" 
@@ -787,7 +787,7 @@ Connection ~ 1425 2575
 Wire Wire Line
 	1425 2575 1375 2575
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F001BB2
 P 1425 2775
 AR Path="/5F001BB2" Ref="#PWR?"  Part="1" 
@@ -961,7 +961,7 @@ F 3 "~" H 5725 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV?
+L KicadJE_Util-rescue:POT-Envelope-cache-2018-08-04-13-00-04 RV?
 U 1 1 5F001C35
 P 6400 2525
 AR Path="/5D99B7BA/5F001C35" Ref="RV?"  Part="1" 
@@ -1013,7 +1013,7 @@ F 3 "~" H 7175 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F001C50
 P 6975 2200
 AR Path="/5F001C50" Ref="#PWR?"  Part="1" 
@@ -1034,7 +1034,7 @@ $EndComp
 Wire Wire Line
 	5575 2525 5475 2525
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F001C8C
 P 5725 1975
 AR Path="/5F001C8C" Ref="#PWR?"  Part="1" 
@@ -1193,7 +1193,7 @@ NegPk1
 Wire Wire Line
 	7225 2700 7600 2700
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F1554B9
 P 9500 1800
 AR Path="/5F1554B9" Ref="#PWR?"  Part="1" 
@@ -1339,7 +1339,7 @@ F 3 "~" H 5325 1425 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F1A0D96
 P 9500 3050
 AR Path="/5F1A0D96" Ref="#PWR?"  Part="1" 
@@ -1562,7 +1562,7 @@ F 3 "~" H 5875 4775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV?
+L KicadJE_Util-rescue:POT-Envelope-cache-2018-08-04-13-00-04 RV?
 U 1 1 5F1DE0B9
 P 6225 4600
 AR Path="/5D99B7BA/5F1DE0B9" Ref="RV?"  Part="1" 
@@ -1614,7 +1614,7 @@ F 3 "~" H 7000 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F1DE0D7
 P 6800 4275
 AR Path="/5F1DE0D7" Ref="#PWR?"  Part="1" 
@@ -1633,7 +1633,7 @@ F 3 "" H 6800 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F1DE0E2
 P 5975 4050
 AR Path="/5F1DE0E2" Ref="#PWR?"  Part="1" 
@@ -1744,7 +1744,7 @@ Out3.1
 Wire Wire Line
 	5975 3900 5975 4050
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F297E88
 P 6800 4825
 AR Path="/5F297E88" Ref="#PWR?"  Part="1" 
@@ -1763,7 +1763,7 @@ F 3 "" H 6800 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F297754
 P 5650 4800
 AR Path="/5F297754" Ref="#PWR?"  Part="1" 
@@ -1994,7 +1994,7 @@ F 3 "~" H 5725 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L KicadJE_Util-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5EA79FA1
 P 5500 2925
 AR Path="/5EA79FA1" Ref="#PWR?"  Part="1" 
